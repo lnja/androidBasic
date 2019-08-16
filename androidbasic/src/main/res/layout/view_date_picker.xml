@@ -1,0 +1,26 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <len.android.basic.view.WheelPicker
+            android:id="@+id/year_wheel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="@string/year"/>
+
+    <len.android.basic.view.WheelPicker
+            android:id="@+id/month_wheel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="@string/month"
+            android:paddingLeft="0dp"/>
+
+    <len.android.basic.view.WheelPicker
+            android:id="@+id/date_wheel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="@string/day"
+            android:paddingLeft="0dp"/>
+
+</merge>

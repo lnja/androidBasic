@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--颜色透明度对应的16进制值
+        100% — FF 95% — F2  90% — E6 85% — D9 80% — CC  75% — BF  70% — B3 65% — A6 60% — 99(默认的按下颜色比例)
+        55% — 8C 50% — 80 45% — 73 40% — 66 35% — 59 30% — 4D 25% — 40 20% — 33 15% — 26 10% — 1A 5% — 0D 0% — 00-->
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="bg_window">#f5f5f5</color>
+    <color name="transparent">#00000000</color>
+    <color name="bg_active">#e2e2e2</color>
+    <color name="text_disable">#cecece</color>
+    <color name="text_light">#999999</color>
+    <color name="text_light_80">#cc999999</color>
+    <color name="text">#666666</color>
+    <color name="text_dark">#404040</color>
+    <color name="tab_no">#c1c1c1</color>
+    <color name="tab_an">#828282</color>
+    <color name="divider">#d9d9d9</color>
+    <color name="white">#ffffffff</color>
+    <color name="gray_lighter">#f5f5f5</color>
+    <color name="gray_light">#DEDEDE</color>
+    <color name="gray">#d5d5d5</color>
+    <color name="gray_dark">#cecece</color>
+    <color name="gray_darker">#bbbbbb</color>
+    <color name="base_light_title">#a3dee7</color>
+    <color name="base_lightest">#F38F8B</color>
+    <color name="base_lighter">#EB6A63</color>
+    <color name="base_light">#E93E34</color>
+    <color name="base">#E0231A</color>
+    <color name="base_alpha_30">#95E0231A</color>
+    <color name="base_dark">#D8130A</color>
+    <color name="base_darker">#BD120A</color>
+    <color name="base_darkest">#A80C04</color>
+    <color name="green_lightest">#31cd9f</color>
+    <color name="green_lighter">#F6FDF0</color>
+    <color name="green_light">#F3FBEC</color>
+    <color name="green">#9ddd4b</color>
+    <color name="green_dark">#7dcb19</color>
+    <color name="green_darker">#4bc94b</color>
+    <color name="green_darkest">#57b946</color>
+    <color name="red_lightest">#FEF1F1</color>
+    <color name="red_lighter">#FAEBEB</color>
+    <color name="red_light">#F9E5E5</color>
+    <color name="red">#f97777</color>
+    <color name="red_dark">#CE3E3E</color>
+    <color name="red_darker">#CB3636</color>
+    <color name="yellow_red">#FF5a26</color>
+    <color name="yellow_light">#FFDE00</color>
+    <color name="yellow">#FFb920</color>
+    <color name="yellow_bg">#1Af5b54f</color>
+    <color name="yellow_dark">#FF9C00</color>
+    <color name="yellow_darker">#f28300</color>
+    <color name="black_light">#333333</color>
+    <color name="black">#80000000</color>
+</resources>

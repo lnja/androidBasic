@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="dialog_button_confirm" type="id"/>
+    <item name="dialog_button_cancel" type="id"/>
+
+    <item name="title_view" type="id"/>
+    <item name="loading_view" type="id"/>
+
+    <item name="tab" type="id"/>
+    <item name="view_pager" type="id"/>
+    <item name="pager_indicator" type="id"/>
+
+    <item name="preview_view" type="id"/>
+    <item name="viewfinder_view" type="id"/>
+    <item name="cancel_scan_view" type="id"/>
+
+    <item name="web_view" type="id"/>
+    <item name="web_view_progress_bar" type="id"/>
+
+    <item type="id" name="id_1"></item>
+    <item type="id" name="id_2"></item>
+    <item type="id" name="id_3"></item>
+
+    <!--DragSortListView-->
+    <item type="id" name="drag_handle"/>
+    <item type="id" name="click_remove"/>
+</resources>

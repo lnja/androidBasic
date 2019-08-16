@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 解决软键盘 -->
+    <declare-styleable name="KPSwitchPanelLayout">
+        <attr name="ignore_recommend_height" format="boolean"/>
+    </declare-styleable>
+
+    <!-- Dialog -->
+    <attr name="dialogStyle" format="reference"/>
+    <attr name="dialogTransparentStyle" format="reference"/>
+    <attr name="dialogTitleStyle" format="reference"/>
+    <attr name="dialogAlertStyle" format="reference"/>
+    <attr name="dialogInputStyle" format="reference"/>
+    <attr name="dialogButtonStyle" format="reference"/>
+    <attr name="dialogButtonLeftStyle" format="reference"/>
+    <attr name="dialogButtonRightStyle" format="reference"/>
+    <attr name="toastDialogStyle" format="reference"/>
+    <attr name="toastDialogIconStyle" format="reference"/>
+    <attr name="toastDialogTextStyle" format="reference"/>
+
+    <!-- Wheek Picker -->
+    <attr name="wheelPickerStyle" format="reference"/>
+
+    <declare-styleable name="WheelPicker">
+        <attr name="selectedTextSize" format="dimension|reference"/>
+        <attr name="android:textColorHighlight"/>
+        <attr name="android:textSize"/>
+        <attr name="android:textColor"/>
+        <attr name="android:hint"/>
+        <attr name="android:textColorHint"/>
+        <attr name="hintSpacing" format="dimension"/>
+        <attr name="android:gravity"/>
+        <attr name="android:divider"/>
+        <attr name="android:dividerHeight"/>
+        <attr name="dividerOffset" format="dimension"/>
+        <attr name="android:lines"/>
+        <attr name="android:lineSpacingExtra"/>
+        <attr name="android:foreground"/>
+        <attr name="android:fadingEdgeLength"/>
+        <attr name="fadingEdgeColor" format="color|reference"/>
+        <attr name="cyclic" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="CircleMeter">
+        <attr name="backgroundColor" format="color|reference"/>
+        <attr name="scaleColor" format="color|reference"/>
+        <attr name="scaleTextColor" format="color|reference"/>
+        <attr name="insideCircleColor" format="color|reference"/>
+        <attr name="pointerColor" format="color|reference"/>
+        <attr name="textColor" format="color|reference"/>
+        <attr name="scaleTextSize" format="dimension|reference"/>
+        <attr name="textSize" format="dimension|reference"/>
+    </declare-styleable>
+
+    <!-- Date Picker -->
+    <declare-styleable name="DatePicker">
+        <attr name="dateRange">
+            <enum name="normal" value="0"/>
+            <!-- 从今往后 -->
+            <enum name="fromToday" value="1"/>
+            <!-- 至此为止 -->
+            <enum name="toToday" value="2"/>
+        </attr>
+        <!-- 古往今来 -->
+        <attr name="yearRange" format="integer" min="1"/>
+    </declare-styleable>
+
+
+    <!-- Pager Indicator -->
+    <attr name="pagerIndicatorStyle" format="reference"/>
+
+    <declare-styleable name="PagerIndicator">
+        <attr name="android:drawable"/>
+        <attr name="android:spacing"/>
+        <attr name="fromAlpha" format="float"/>
+        <attr name="toAlpha" format="float"/>
+        <attr name="fromScaleX" format="float"/>
+        <attr name="fromScaleY" format="float"/>
+        <attr name="toScaleX" format="float"/>
+        <attr name="toScaleY" format="float"/>
+        <attr name="transition">
+            <enum name="fade" value="0"/>
+            <enum name="scale" value="1"/>
+            <enum name="slide" value="2"/>
+        </attr>
+    </declare-styleable>
+
+    <!-- List View -->
+    <declare-styleable name="ListView">
+        <attr name="android:hint"/>
+        <attr name="android:textColorHint"/>
+        <attr name="textSizeHint" format="dimension"/>
+        <attr name="emptyViewTip" format="dimension"/>
+        <attr name="emptyViewIcon" format="dimension"/>
+    </declare-styleable>
+
+    <!-- Loading View -->
+    <attr name="loadingViewStyle" format="reference"/>
+
+    <declare-styleable name="LoadingView">
+        <attr name="android:text"/>
+        <attr name="android:src"/>
+    </declare-styleable>
+
+    <!-- title bar -->
+    <attr name="titleBarStyle" format="reference"/>
+
+    <declare-styleable name="TitleBar">
+        <attr name="android:text"/>
+        <attr name="android:textColor"/>
+        <attr name="leftIcon" format="reference"/>
+        <attr name="leftExtraIcon" format="reference"/>
+        <attr name="rightIcon" format="reference"/>
+        <attr name="rightExtraIcon" format="reference"/>
+    </declare-styleable>
+    <declare-styleable name="TitleBox">
+        <attr name="titleIcon" format="reference"/>
+    </declare-styleable>
+
+    <!-- preference view -->
+    <attr name="preferenceStyle" format="reference"/>
+
+    <declare-styleable name="Preference">
+        <attr name="android:text"/>
+        <attr name="android:hint"/>
+        <attr name="android:src"/>
+        <attr name="android:textColor"/>
+        <attr name="android:textColorHint"/>
+        <attr name="android:drawableLeft"/>
+        <attr name="android:drawablePadding"/>
+    </declare-styleable>
+
+    <declare-styleable name="MedicalHisItemView">
+        <attr name="mhivTitle" format="string"/>
+        <attr name="mhivEditState">
+            <enum name="edit" value="0"/>
+            <enum name="done" value="1"/>
+        </attr>
+
+    </declare-styleable>
+
+    <attr name="drawableWidth" format="dimension"/>
+    <attr name="drawableHeight" format="dimension"/>
+    <declare-styleable name="DrawableButton">
+        <attr name="drawableWidth"/>
+        <attr name="drawableHeight"/>
+    </declare-styleable>
+    <declare-styleable name="Ratio">
+        <attr name="ratio" format="float"/>
+    </declare-styleable>
+
+    <!-- Image View -->
+    <attr name="imageViewStyle" format="reference"/>
+    <declare-styleable name="ImageView">
+        <attr name="loadingDrawable" format="reference"/>
+        <attr name="errorDrawable" format="reference"/>
+        <attr name="errorDrawableRound" format="reference"/>
+        <attr name="ratioX" format="float"/>
+        <attr name="ratioY" format="float"/>
+        <attr name="borderRadius" format="dimension"/>
+        <attr name="borderWidth" format="dimension"/>
+        <attr name="borderPadding" format="dimension"/>
+        <attr name="borderColor" format="color"/>
+    </declare-styleable>
+
+
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingBottom="@dimen/spacing_biggest"
+              android:paddingTop="@dimen/spacing_biggest">
+
+    <len.android.basic.view.WheelPicker
+            android:gravity="right"
+            android:id="@+id/wp_year"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/year"
+            android:paddingRight="0dp"
+    />
+
+    <len.android.basic.view.WheelPicker
+            android:gravity="left"
+            android:id="@+id/wp_month"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/month"/>
+
+</LinearLayout>

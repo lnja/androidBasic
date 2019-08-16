@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><!--TODO-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_enabled="false">
+        <shape>
+            <corners android:radius="@dimen/radius_big"/>
+
+            <stroke android:width="1dp" android:color="@color/divider"/>
+
+            <solid android:color="@color/white"/>
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape>
+            <corners android:radius="@dimen/radius_biggest"/>
+
+            <stroke android:width="1dp" android:color="@color/base"/>
+
+            <solid android:color="@color/base_lighter"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:radius="@dimen/radius_biggest"/>
+
+            <stroke android:width="1dp" android:color="@color/base"/>
+
+            <solid android:color="@color/base_lightest"/>
+        </shape>
+    </item>
+
+</selector>

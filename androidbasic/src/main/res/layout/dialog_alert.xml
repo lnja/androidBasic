@@ -1,0 +1,19 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+            android:id="@+id/ll_alert_dialog"
+            android:layout_width="match_parent"
+            android:paddingLeft="@dimen/spacing_bigger"
+            android:paddingRight="@dimen/spacing_bigger"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+        <TextView
+                android:id="@+id/dialog_alert"
+                style="?attr/dialogAlertStyle"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</merge>
