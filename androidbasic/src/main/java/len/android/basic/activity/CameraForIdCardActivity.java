@@ -222,7 +222,8 @@ public class CameraForIdCardActivity extends BaseActivity implements SurfaceHold
         Bitmap bitmap = BitmapFactory.decodeByteArray(picData, 0, picData.length);
         Bitmap saveBitmap = CameraUtil.getInstance().setTakePicktrueOrientation(mCameraId, bitmap);
 
-        File saveImg = StorageUtils.getImageSavePath(CameraForIdCardActivity.this, Md5Encrypt.md5(System.currentTimeMillis() + "") + ".jpg");
+        File imageCacheDir = StorageUtils.getCacheCustomDir(CameraForIdCardActivity.this, "localImg");
+        File saveImg = new File(imageCacheDir, Md5Encrypt.md5(System.currentTimeMillis() + "") + ".jpg");
         if (!saveImg.exists()) {
             BitmapUtils.saveBitmap(saveBitmap, saveImg);
         }

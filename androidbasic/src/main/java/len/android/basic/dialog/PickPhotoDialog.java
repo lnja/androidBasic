@@ -53,7 +53,7 @@ public class PickPhotoDialog extends Dialog {
     }
 
     private void init() {
-        photoFile = StorageUtils.getCustomCacheDirectory(context, "localImg");
+        photoFile = StorageUtils.getCacheCustomDir(context, "localImg");
         photoFile = new File(photoFile, UUID.randomUUID().toString() + ".jpg");
         setTitle(title);
         setContentView(R.layout.dialog_pick_photo);
@@ -158,7 +158,7 @@ public class PickPhotoDialog extends Dialog {
         if (photoFile.exists() && !isOrigin) {
 //			BitmapUtils.compressBitmap(photoFile, Config.PHOTO_COMPRESS_WIDTH, Config.PHOTO_COMPRESS_HEIGHT);
             compressBitmap(photoFile);
-            File tempFile = StorageUtils.getCustomCacheDirectory(context, "localImg");
+            File tempFile = StorageUtils.getCacheCustomDir(context, "localImg");
             tempFile = new File(tempFile, photoFile.getName().split("\\.")[0] + "_tmp.jpg");
             if (tempFile.exists()) {
                 tempFile.delete();
@@ -184,7 +184,7 @@ public class PickPhotoDialog extends Dialog {
     public void doCropImage(BaseActivity context, Intent data, int requestCode) {
         getPhotoFileFromResult(context, data, true);
         if (!photoFile.exists()) return;
-        File tempFile = StorageUtils.getCustomCacheDirectory(context, "localImg");
+        File tempFile = StorageUtils.getCacheCustomDir(context, "localImg");
         tempFile = new File(tempFile, photoFile.getName().split("\\.")[0] + "_tmp.jpg");
         FileUtils.copyFile(photoFile, tempFile);
         context.startActivityForResult(

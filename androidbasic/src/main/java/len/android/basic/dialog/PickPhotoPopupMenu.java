@@ -27,7 +27,7 @@ public class PickPhotoPopupMenu extends PopupMenu {
                 context.getString(R.string.from_camera)});
         this.context = context;
         this.requestCode = requestCode;
-        photoFolder = StorageUtils.getCustomCacheDirectory(context, "localImg");
+        photoFolder = StorageUtils.getCacheCustomDir(context, "localImg");
         if (!photoFolder.exists()) {
             photoFolder.mkdirs();
         }

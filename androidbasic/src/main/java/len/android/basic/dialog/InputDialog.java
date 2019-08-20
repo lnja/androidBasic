@@ -17,27 +17,27 @@ public class InputDialog extends Dialog implements OnDismissListener {
     protected EditText mEditText;
 
     public InputDialog(Context context) {
-        this(context, null,null,0f);
+        this(context, null, null, 0f);
     }
 
     public InputDialog(Context context, String title) {
-        this(context, title, null,0f);
+        this(context, title, null, 0f);
     }
 
-    public InputDialog(Context context,@StringRes int resIdOfTitle) {
-        this(context, context.getString(resIdOfTitle), null,0f);
+    public InputDialog(Context context, @StringRes int resIdOfTitle) {
+        this(context, context.getString(resIdOfTitle), null, 0f);
     }
 
     public InputDialog(Context context, String title, String hint) {
-        this(context,title,hint,0f);
+        this(context, title, hint, 0f);
     }
 
-    public InputDialog(Context context,@StringRes int resIdOfTitle,@StringRes int resIdOfHint) {
-        this(context,context.getString(resIdOfTitle),context.getString(resIdOfHint),0f);
+    public InputDialog(Context context, @StringRes int resIdOfTitle, @StringRes int resIdOfHint) {
+        this(context, context.getString(resIdOfTitle), context.getString(resIdOfHint), 0f);
     }
 
     public InputDialog(Context context, String title, String hint, float dialogWidthRatio) {
-        super(context,dialogWidthRatio);
+        super(context, dialogWidthRatio);
         setTitle(title);
         setContentView(R.layout.dialog_input);
         mEditText = (EditText) findViewById(R.id.dialog_input);
